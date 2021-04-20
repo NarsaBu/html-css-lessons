@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ex05-09</title>
+        <style>
+            .bbb, .xxx {
+                color: red;
+            }
+
+			p.bbb, h2.xxx {
+				font-style: italic;
+			}
+
+			#test p.bbb, #test p.xxx {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+        </style>
+    </head>
+    <body>
+        <div id="test">
+            <h2 class="bbb">h2 tag1</h2>
+            <p class="bbb">p tag1</p>
+            <p class="xxx">p tag2</p>
+        </div>
+        <div>
+            <h2 class="xxx">h2 tag2</h2>
+            <p class="xxx">p tag3</p>
+            <p>p tag4</p>
+        </div>
+		<div class="xxx">text</div>
+    </body>
+</html>

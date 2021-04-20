@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ex12</title>
+    <style>
+      #face {
+        margin: 0px auto;
+        width: 400px;
+        height: 400px;
+        background-color: #C4CD14;
+        border-radius: 200px;
+        position: relative;
+      }
+
+      #eye1, #eye2 {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        background-color: white;
+        border-radius: 40px;
+        top: 70px;
+        z-index: 2;
+      }
+
+      #eye1 {
+        right: 80px;
+      }
+
+      #eye2 {
+        left: 80px;
+      }
+
+      #nose {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        background-color: white;
+        top: 200px;
+        left: 165px;
+        border-radius: 35px;
+        z-index: 2;
+      }
+
+      #mouth1 {
+        background-color: #C4CD14;
+        position: absolute;
+        left: 50px;
+        top: 30px;
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+        z-index: 1;
+      }
+
+      #mouth2 {
+        background-color: #fff;
+        position: absolute;
+        left: 100px;
+        top: 155px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="face">
+      <div id="eye1"></div>
+      <div id="eye2"></div>
+      <div id="nose"></div>
+      <div id="mouth1"></div>
+      <div id="mouth2"></div>
+    </div>
+  </body>
+</html>

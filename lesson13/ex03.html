@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ex03</title>
+    <style media="screen">
+      #wrapper {
+        margin: 0px auto;
+        width: 800px;
+      }
+
+      #header, #content, #footer, #sidebar {
+        outline: 1px solid black;
+      }
+
+      #header {
+        min-height: 200px;
+      }
+
+      #sidebar {
+        min-width: 200px;
+        min-height: 500px;
+        float: left;
+      }
+
+      #content {
+        min-width: 600px;
+        min-height: 500px;
+        float: left;
+      }
+
+      #clearfix {
+        clear: both;
+      }
+
+      #footer {
+        min-height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">header</div>
+      <div id="content">content</div>
+      <div id="sidebar">sidebar</div>
+      <div id="clearfix"></div>
+      <div id="footer">footer</div>
+    </div>
+  </body>
+</html>

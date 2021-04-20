@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ex02</title>
+    <style>
+      #menu {
+        width: 700px;
+        margin: 0 auto;
+        background-color: #2696E8;
+        border: 1px solid blue;
+      }
+
+      #menu ul {
+        display: flex;
+        flex-direction: row-reverse;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        justify-content: space-between;
+      }
+
+      #menu li a {
+        display: block;
+        padding: 10px;
+      }
+
+      #menu li a:link, #menu li a:visited {
+        color: white;
+        text-decoration:none;
+      }
+
+      #menu li a:hover {
+        color: #2696E8;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">О нас</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
