@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>ex07</title>
+    <title>ex09</title>
     <style media="screen">
       #wrapper {
 		  margin: 0 auto;
@@ -10,39 +10,24 @@
 		  outline: 1px solid black;
 	  }
 
-	  #header, #content, #right, #footer {
+	  #header, #content, .sidebar, #footer {
 		  outline: 1px solid black;
 	  }
 
 	  #header {
 		  height: 200px;
-		  margin-bottom: 20px;
-	  }
-
-	  #left {
-		  float: left;
-		  width: 200px;
-		  margin-left: 20px;
-	  }
-
-	  .blocks {
-		  outline: 1px solid black;
-		  width: 200px;
-		  height: 200px;
-		  margin-bottom: 20px;
 	  }
 
 	  #content {
-		  margin: 0px 20px;
 		  float: left;
-		  height: 700px;
-		  width: 520px;
+		  height: 500px;
+		  width: 600px;
 	  }
 
-	  #right {
+	  .sidebar {
 		  float: left;
 		  width: 200px;
-		  height: 700px;
+		  height: 500px;
 	  }
 
 	  #clearfix {
@@ -51,21 +36,15 @@
 
 	  #footer {
 		  height: 200px;;
-		  margin-top: 20px;
 	  }
     </style>
   </head>
   <body>
     <div id="wrapper">
       <div id="header">header</div>
-      <div class="sidebar" id="left">
-        <div class="blocks"></div>
-        <div class="blocks"></div>
-        <div class="blocks"></div>
-        <div class="blocks"></div>
-      </div>
+      <div class="sidebar">left</div>
       <div id="content">content</div>
-      <div class="sidebar" id="right">right</div>
+      <div class="sidebar">right</div>
       <div id="clearfix"></div>
       <div id="footer">footer</div>
     </div>

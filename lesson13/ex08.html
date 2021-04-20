@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>ex07</title>
+    <title>ex08</title>
     <style media="screen">
       #wrapper {
 		  margin: 0 auto;
@@ -10,13 +10,21 @@
 		  outline: 1px solid black;
 	  }
 
-	  #header, #content, #right, #footer {
+	  #header, #content, #right, #footer, #integrated {
 		  outline: 1px solid black;
 	  }
 
 	  #header {
 		  height: 200px;
 		  margin-bottom: 20px;
+	  }
+
+	  #integrated {
+		  width: 500px;
+		  height: 30px;
+		  position: relative;
+		  top: 80px;
+		  left: 150px;
 	  }
 
 	  #left {
@@ -57,7 +65,9 @@
   </head>
   <body>
     <div id="wrapper">
-      <div id="header">header</div>
+      <div id="header">
+		<div id="integrated"></div>
+	  </div>
       <div class="sidebar" id="left">
         <div class="blocks"></div>
         <div class="blocks"></div>

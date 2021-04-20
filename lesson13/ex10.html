@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ex09</title>
+    <style media="screen">
+      #wrapper {
+		  margin: 0 auto;
+		  width: 1000px;
+		  outline: 1px solid black;
+	  }
+
+	  .left, .right {
+		  width: 200px;
+		  height: 200px;
+		  outline: 1px solid black;
+		  margin: 20px;
+		  float: left;
+	  }
+
+	  .content {
+		margin: 20px 0px;
+		outline: 1px solid black;
+		width: 520px;
+		height: 200px;
+		float: left;
+	  }
+
+	  #clearfix {
+		  clear: both;
+	  }
+
+	  #main .content, #main .left, #main .right {
+		  height: 500px;
+	  }
+
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+		<div class="left">left</div>
+		<div class="content">content</div>
+		<div class="right">right</div>
+	  </div>
+      <div id="main">
+		<div class="left">left</div>
+		<div class="content">content</div>
+		<div class="right">right</div>
+	  </div>
+      
+	  <div id="footer">
+		<div class="left">left</div>
+		<div class="content">content</div>
+		<div class="right">right</div>
+	  </div>
+	  <div id="clearfix"></div>
+    </div>
+  </body>
+</html>
