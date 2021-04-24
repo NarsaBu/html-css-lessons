@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ex06</title>
+		<style>
+			body, #header h1, #header h2, #main h1, #main h2, #main li, #footer {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			#header {
+				min-width: 1100px;
+				text-align: center;
+				background-color: #008040;
+				color: white;
+				font-family: Arial, Helvetica, sans-serif;
+				padding-bottom: 5px;
+			}
+
+			#header h1 {
+				font-size: 35px;
+				padding-top: 5px;
+				padding-bottom: 7px;
+			}
+
+			#header h2 {
+				font-weight: normal;
+				font-size: 21px;
+				margin-bottom: 5px;
+			}
+
+			#main {
+				min-width: 1100px;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+				margin: 30px 0px;
+			}
+
+			#main h1 {
+				font-size: 27px;
+			}
+
+			#main ol {
+				width: 840px;
+				text-align: justify;
+				margin: 10px auto;
+				list-style-type: none;
+				counter-reset: li;
+				word-break: break-all;
+				padding: 0px;
+			}
+
+			#main li::before {
+				content: counter(li) ".";
+				counter-increment: li;
+				color: red;
+				font-weight: bold;
+			}
+
+			#main li {
+				font-size: 16px;
+				margin-bottom: 10px;
+				list-style-position: inside;
+				text-align: justify;
+			}
+
+			#contacts {
+				text-align: center;
+				color: white;
+				background-color: #C60304;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+
+			#contacts h1 {
+				padding-top: 10px;
+			}
+
+			#contacts h2 {
+				font-weight: normal;
+				font-size: 16px;
+				padding-top: 10px;
+				padding-bottom: 20px;
+			}
+
+			#main p {
+				text-align: justify;
+				width: 840px;
+				margin: 10px auto;
+			}
+
+			#footer {
+				min-width: 1100px;
+				font-family: Arial, Helvetica, sans-serif;
+				color: white;
+				background-color: #FF8040;
+				text-align: center;
+			}
+
+			#footer h1 {
+				font-size: 27px;
+				padding-top: 20px;
+			}
+
+			#clients {
+				width: 840px;
+				margin: 0px auto;
+				margin-top: -8px;
+				margin-bottom: 20px;
+			}
+
+			#clients img {
+				outline: 1px solid black;
+				width: 24.5%;
+				margin-right: 0.1%;
+			}
+
+			#title {
+				background-color: #912F00;
+				min-width: 1100px;
+				text-align: center;
+				margin: 0px auto;
+				font-size: 13px;
+				padding-top: 200px;
+				padding-bottom: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Любые виды ремонтных работ</h1>
+				<h2>Выезд специалиста, замер и смета работ бесплатно</h2>
+				<h2>Бесплатный дизайн проект</h2>
+				<h2>Гарантия 3 года</h2>
+			</div>
+			<div id="main">
+				<h1>Наши услуги</h1>
+				<ol>
+					<li>
+						Pellentesque pellentesque sem ac justo tristique pellentesque. Vestibulum semper pulvinar rutrum. 
+						Maecenas odio urna, porta sed lectus eget, fringilla posuere odio. Maecenas pulvinar sed massa vitae tincidunt.
+					</li>
+					<li>
+						Praesent ullamcorper est ac lorem aliquet, sed tempus lacus iaculis. Pellentesque a odio pharetra, sagittis enim 
+						sit amet, euismod leo. Nullam egestas, nisi eget blandit dignissim, augue dui accumsan est, at tincidunt ipsum metus 
+						quis justo. Aenean sed mauris ornare, faucibus tortor in, iaculis magna. Duis eros lectus, auctor eu mi sit amet, 
+						ornare scelerisque elit.
+					</li>
+					<li>
+						Integer a sollicitudin quam. Sed laoreet finibus velit ut rhoncus. Nunc euismod neque at ligula venenatis vestibulum. 
+						Nulla facilisi. Nunc aliquet, erat sed ullamcorper malesuada, sapien magna tempor augue, at malesuada felis enim at quam. 
+						Curabitur ornare tincidunt nisi id cursus.
+					</li>
+					<li>
+						Nunc finibus non massa in vestibulum. Etiam euismod metus ut euismod sagittis. Donec tincidunt neque a dolor posuere egestas. 
+						Proin sed dolor dui. In urna tellus, pretium in eleifend eget, pellentesque et enim. Etiam pulvinar velit nec libero iaculis, 
+						vitae consectetur elit pellentesque.
+					</li>
+				</ol>
+				<div id="contacts">
+					<h1>Наши контакты</h1>
+					<h2>Телефоны: +375 29 817 68 92 МТС, +375 31 335 29 38 Velcom</h2>
+				</div>
+				<h1>Наша компания</h1>
+				<p>
+					Pellentesque pellentesque sem ac justo tristique pellentesque. Vestibulum semper pulvinar rutrum. Maecenas odio urna, porta sed 
+					lectus eget, fringilla posuere odio. Maecenas pulvinar sed massa vitae tincidunt. Praesent ullamcorper est ac lorem aliquet, sed 
+					tempus lacus iaculis. Pellentesque a odio pharetra, sagittis enim sit amet, euismod leo. Nullam egestas, nisi eget blandit dignissim, 
+					augue dui accumsan est, at tincidunt ipsum metus quis justo. Aenean sed mauris ornare, faucibus tortor in, iaculis magna. Duis eros 
+					lectus, auctor eu mi sit amet, ornare scelerisque elit.
+				</p>
+				<p>
+					Integer a sollicitudin quam. Sed laoreet finibus velit ut rhoncus. Nunc euismod neque at ligula venenatis vestibulum. Nulla facilisi. 
+					Nunc aliquet, erat sed ullamcorper malesuada, sapien magna tempor augue, at malesuada felis enim at quam. Curabitur ornare tincidunt 
+					nisi id cursus. Nunc finibus non massa in vestibulum. Etiam euismod metus ut euismod sagittis. Donec tincidunt neque a dolor posuere 
+					egestas. Proin sed dolor dui. In urna tellus, pretium in eleifend eget, pellentesque et enim. Etiam pulvinar velit nec libero iaculis, 
+					vitae consectetur elit pellentesque.
+				</p>
+			</div>
+			<div id="footer">
+				<h1>Наши клиенты</h1>
+				<div id="clients">
+					<img src="./img/clients/1.jpg" />
+					<img src="./img/clients/2.jpg" />
+					<img src="./img/clients/3.jpg" />
+					<img src="./img/clients/4.jpg" />
+					<img src="./img/clients/5.jpg" />
+					<img src="./img/clients/6.jpg" />
+					<img src="./img/clients/7.jpg" />
+					<img src="./img/clients/8.jpg" />
+				</div>
+				<div id="title">Строительная компания "Рога и копыта" © 2015. Все права более чем защищены.</div>
+			</div>
+		</div>
+	</body>
+</html>
