@@ -1,0 +1,197 @@
+body {
+	background-color: #B17E4F;
+	font: 13px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #444;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+#header, #main, #footer {
+	display: block;
+	clear: both;
+}
+
+/* HEADER BEGIN */
+
+#header #title {
+	float: left;
+	font-size: 44px;
+	font-weight: bold;
+	padding: 60px 0 10px 30px;
+	letter-spacing: -1px;
+}
+
+#header #title a:link, #header #title a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#header #subtitle {
+	float: right;
+	color: #CEB6A4;
+	font-size: 16px;
+	padding: 80px 30px 0 0;
+}
+
+/* HEADER END */
+
+/* MAIN BEGIN */
+
+#main {
+	background-color: white;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+#main nav {
+	padding: 15px;
+}
+
+#main nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	text-align: center;
+}
+
+#main nav ul li {
+	flex: 1;
+}
+
+#main nav ul li a {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+}
+
+#main nav li a:link, #main nav li a:visited {
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#main nav li a:hover, #main nav li #active {
+	background-color: #1B3039;
+}
+
+#main #pic img {
+	margin-left: 15px;
+}
+
+#left-side {
+	width: 570px;
+	float: left;
+	margin-left: 30px;
+}
+
+#left-side h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#left-side h1 a {
+	letter-spacing: -1px;
+	color: #9F6841;
+	text-decoration: none;
+	font-size: 39px;
+
+}
+
+#left-side p a {
+	color: #96AE3E;
+	text-decoration: none;
+}
+
+#left-side p {
+	margin-top: 34px;
+	line-height: 26px;
+}
+
+#left-side .metadata {
+	margin-top: 5px;
+	line-height: normal;
+}
+
+#right-side {
+	width: 300px;
+	float: right;
+	margin-right: 15px;
+}
+
+#right-side .box {
+	border: 1px solid #E8E6DE;
+	background-color: #EFEDE5;
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.box h2 {
+	padding: 0;
+	margin: 0;
+	background-color: #5D9EBD;
+	border: 1px solid #5692AE;
+	color: white;
+	font-size: 1.5em;
+	line-height: 2em;
+	padding-left: 15px;
+}
+
+.box ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.box ul li {
+	margin-top: 2px;
+	display: block;
+	border-bottom: 1px solid #E8E6DE;
+}
+
+.box ul li a {
+	line-height: 2.5em;
+	margin-left: 15px;
+	color: #96AE3E;
+	text-decoration: none;
+}
+
+.box p {
+	margin: 20px;
+	line-height: 26px;
+}
+
+/* MAIN END */
+
+/* FOOTER BEGIN */
+
+#footer {
+	background-color: white;
+	padding: 15px 15px;
+	margin-bottom: 50px;
+}
+
+#footer #copyright {
+	text-align: center;
+	background-color: #D1E4A7;
+}
+
+#footer #copyright p {
+	padding: 30px 15px;
+}
+
+#footer #copyright p a:link, #footer #copyright p a:visited {
+
+	color: #96AE3E;
+	text-decoration: none;
+} 
+
+/* FOOTER END */
